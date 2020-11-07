@@ -95,6 +95,7 @@ namespace WafclastRPG.Bot.Comandos
 
 
             bucket.Release();
+            await Task.CompletedTask;
         }
 
         [Command("atualizar")]
